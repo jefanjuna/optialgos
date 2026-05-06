@@ -1,0 +1,1 @@
+def mean_and_median(num_list): return (None, None) if not num_list else ((sum(num_list)/len(num_list), sorted(num_list)[len(num_list)//2]) if len(num_list)%2 else (sum(num_list)/len(num_list), (sorted(num_list)[len(num_list)//2]+sorted(num_list)[len(num_list)//2-1])/2))

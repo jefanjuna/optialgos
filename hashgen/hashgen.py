@@ -1,0 +1,1 @@
+def simple_hash(text, mod): return sum([j*k for j, k in list(enumerate([ord(i) for i in list(text)], 1))]) % mod
